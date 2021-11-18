@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-a-sketch</title>
+  <link rel="stylesheet" href="index.css" />
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  <header class="header">
+    <h1 class ="title">Etch-a-sketch</h1>
+  </header>
+  <main class ="main">
+    <div id="grid" class="grid"></div>
+    <div class ="settings">
+      <div id="size-value" class="size-value">Size: 32 </div>
+      <input id="size-slider" type="range" value="32" min="1" max="128" />
+      <input id="color-pallete" type="color" value="#111111" />
+      <button class="button" id="color-btn">Color Mode</button>
+      <button class="button" id="rainbow-btn">Rainbow Mode</button>
+      <button class="button" id="eraser">Eraser</button>
+      <button class="button" id="clear">Clear</button>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div >by JackButler99</div>
+    <div id="github-icon">
+      <a href="https://github.com/JackButler99" target="_blank">
+        <i class="fa fa-github fa_custom fa-2x"></i></a>
+    </div>
+    </div>
+    
+  </footer>
+  <script src="index.js"></script>
+  </body>
+</html>
